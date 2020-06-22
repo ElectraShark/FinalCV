@@ -43,3 +43,12 @@ body{
     margin-left: 3.5vw;
     margin-right: 3.5vw;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .aboutMyself{
+    
+        font-size: 3.3vw;
+    }
+ 
+ }
