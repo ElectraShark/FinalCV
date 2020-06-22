@@ -1,0 +1,45 @@
+
+body{
+    background-color: #fffdf6; 
+  }
+
+.introduction{  /* profile pic and name */
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Caveat', cursive;
+    background-color:lightblue;
+    text-align: center;    
+}
+.h1Name{       /* Name */
+    font-size: 5vw;
+    margin-bottom: 0%;
+}
+
+.profilePic{
+    height: 17%;
+    width: 17%;
+    border-radius:100%;
+}
+
+.polygon1{
+    position: fixed;
+    z-index: -1;
+    fill:#ebe6e6;
+    
+  }
+
+.aboutMyself{
+    
+    font-size: 2vw;
+    border-style:solid;
+    background-color: white;
+    
+    border-color: #d1cebd;
+    border-width: thin;
+
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+}
