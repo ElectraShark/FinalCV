@@ -1,170 +1,186 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
+  <head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="master.css">
-  <link rel="icon" href="icon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- local CSS -->
+    <link rel="stylesheet" href= "styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>CV</title>
+  
 </head>
 
-<body>
-
-  <svg class=polygon1 height="500" width="800">
-    <polygon points="100 0,220 0,650 350, 0 500,0 100">
-  </svg>
-
-  <svg class=polygon2 height="2000" width="2000">
-    <polygon points="1100 0,1520 0,1520 500">
-  </svg>
-
-  <div class="introduction">
-
-    <img id=cartoon src="cartoonb.jpg" alt="Profile pic">
-    <h1 id=heading1>Rithvik V</h1>
-
-  </div>
-
-
-  <div class="paragraph2">
-
-    <p>Hello, Glad you're here. </p><br><br>
-
-    <p class="intro" align=”justify”>I am currently pursuing BCA at IGNOU (correspondence). I aspire to become a full stack developer.
-      I also take special interest in creating interactive academic content. I am an avid football enthusiast.
-      I hope to bring about a positive change in the world through whatever I am doing. <br /></p><br>
-    <hr>
-
-    <div class="major">
-
-      <div>
-
-        <p class="heading2"><br /><mark>Personal Details</mark></p>
-
-      </div>
-
-      <div class="table2">
-
-        <p class="content2"><br />Full Name</p>
-        <p class="content2"><br />DOB</p>
-        <p class="content2"><br />E-mail</p>
-        <p class="content2"><br />Phone</p>
-        <p class="content2"><br />Locality</p>
-
-      </div>
-
-      <div class="table2a">
-
-        <p class="content2"><br />Rithvik Venkatesh</p>
-        <p class="content2"><br />11th March, 1993</p>
-        <p class="content2"><br />tndb248@gmail.com</p>
-        <p class="content2"><br />9620920423</p>
-        <p class="content2"><br />Vijayanagar</p>
-
-      </div>
-
+  <body>
+    <!-- background polygons -->
+    
+    <div>
+        <svg preserveAspectRatio="none"  viewBox="0 0 100 100" class=polygon1>
+            <polygon points="10 0,20 0, 45 25,0 42,0 11">
+        </svg>
     </div>
 
+    <br>
+    <br>
+    
+    <!--profile pic and blue background-->
 
-    <div class="major2">
-
-      <div>
-
-        <p class="heading2"><br /><mark>Professional Skills</mark></p>
-        <img class="image2" src="picture7.jpg" alt="">
-
-      </div>
-
-      <div class="table2">
-
-        <p class="content2"><br />HTML</p>
-        <p class="content2"><br />CSS</p>
-        <p class="content2"><br />JavaScript</p>
-        <p class="content2"><br />Java (Basics)</p>
-        <p class="content2"><br />Python (Basics)</p>
-
-      </div>
-
-    </div>
-    <br><br />
-    <hr>
-
-    <div class="major">
-
-      <div>
-
-        <p class="heading2"><br /><mark>Work Experience</mark></p>
-        <img class="image3" src="picture10.jpg" alt="">
-
-
-      </div>
-
-      <div class="table2a">
-
-        <p class="content2"><br />Academic content creation at Dhruva Academy</p>
-        <p class="content2"><br />Home Tutoring (part time)</p>
-        <p class="content2"><br />Travel help desk at Just In Time Travels</p>
-
-      </div>
-
-
+    <div class="introduction">
+        <img class="profilePic" src="images/cartoonb - Copy.jpg" alt="Profile pic">
+        <h1 class="h1Name">Rithvik V</h1>
     </div>
 
-    <div class="major2">
+    <br>
+    <br>
 
-      <div>
+    <div class="aboutMyself">  
 
-        <p class="heading2"><br /><mark>Education</mark></p>
-        <img class="image4" src="picture13.jpg" alt="">
+        <br>
 
-      </div>
+        <p>Hello, glad you're here. </p>
 
-      <div class="table2a">
+        <p>I'm currently pursuing BCA at IGNOU (distance education). I aspire to become a full stack developer.
+        I also take special interest in creating interactive academic content. I am an avid football enthusiast.
+        I hope to bring about a positive change in the world through whatever I am doing. 
+        </p>
 
-        <p class="content2"><br />10th grade from Carmel High School</p>
-        <p class="content2"><br />PUC from Vidya Vardhaka Sangha</p>
-        <p class="content2"><br />BCA from IGNOU (pursuing)</p>
+        <br>
 
-      </div>
+        <div class="row">
+        
+            <div class="col-lg-7 col-md-7 col-sm-7">
+            
+                <p><b>Personal Details</b></p>
 
+                <table style="width:90%">
+                    
+                    <tr>
+                      <td>Full Name </td>
+                      <td>Rithvik Venkatesh</td> 
+                    </tr>
 
+                    <tr>
+                      <td>DOB </td>
+                      <td>11/03/1993</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Email </td>
+                      <td>tndb248@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Phone </td>
+                      <td>9620920423</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Locality </td>
+                      <td>Vijayanagar</td>
+                    </tr>
+
+                </table>
+                <br>
+
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-12">
+
+                <p><b>Professional Skills</b></p>
+                
+                <table style="width:100%">
+                    
+                    <tr>
+                      <td>HTML</td>
+                    </tr>
+
+                    <tr>
+                      <td>CSS</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>JavaScript</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Python(Basics)</td>
+                    </tr>
+                    
+
+                </table>
+                <br>
+
+            </div>
+    
+        </div>
+
+        <div class="row">
+        
+            <div class="col-lg-7 col-md-7 col-sm-7">
+            
+                <p><b>Work Experience</b></p>
+
+                <table style="width:90%">
+                    
+                    <tr>
+                      <td>Academic content creation at Dhruva Academy </td>
+                    </tr>
+
+                    <tr>
+                      <td>Home Tutoring</td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Travel help desk at Just in Time Travels</td>
+                    </tr>
+
+                </table>
+                <br>
+
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-12">
+
+                <p><b>Education</b></p>
+                
+                <table style="width:100%">
+                    
+                    <tr>
+                      <td>10th grade from Carmel High School</td>
+                    </tr>
+  
+                     <tr>
+                      <td>12th grade from Vidya Vardhaka Sangha</td>
+                    </tr> 
+                    
+                    <tr>
+                        <td>BCA from IGNOU (pursuing)</td>
+                    </tr>
+
+                </table>
+                <br>
+
+            </div>
+    
+        </div>
+    
     </div>
-
-    <br><br />
-
-    <hr>
-
-    <div class="major">
-
-      <div>
-
-        <p class="heading2"><br /><mark>Previous Works</mark></p>
-        <img class="image3" src="Picture6.jpg" alt="">
-
-      </div>
-
-      <div class="table2a">
-
-        <p class="content2"><br />Designed the current Webpage</p>
-        <p class="content2"><br />Sample Academic Content:</p>
-
-      </div>
-
-
-    </div>
-
-    <iframe class="ppt" src="https://onedrive.live.com/embed?cid=21CA799A45635A8A&amp;resid=21CA799A45635A8A%21113&amp;authkey=AF71J3LTA0ayGtQ&amp;em=2&amp;wdAr=1.7777777777777777" width="500px" height="300px" frameborder="0">This is an embedded <a
-        target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-
-  </div>
-
-  </div>
-
+<br><br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
 </body>
-
-<br /><br /><br />
-
 </html>
